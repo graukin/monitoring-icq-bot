@@ -84,3 +84,7 @@ class DbWrapperTest(unittest.TestCase):
         self.assertEqual(["id3"], w2.search_by_label("l3"))
         self.assertEqual(["id1", "id3"], w2.search_by_label("l4"))
         self.assertEqual(["id1", "id2"], w2.search_by_label("l5"))
+
+
+if __name__ == '__main__':
+    unittest.main()
